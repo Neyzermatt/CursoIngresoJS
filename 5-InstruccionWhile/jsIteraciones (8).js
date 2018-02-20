@@ -9,6 +9,7 @@ function Mostrar()
 
 	while(respuesta=='si'){
 		contador++;
+		continue
 
 		num=prompt("ingrese un numero");
 		num=parseInt(num);

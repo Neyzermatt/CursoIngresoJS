@@ -11,7 +11,7 @@ function Mostar()
     nombre=document.getElementById("elNombre").value;
     edad=document.getElementById("laEdad").value;
     
-    alert(mens1+nombre+mens2+edad); 
+    alert(mens1+ " "+nombre+" "+mens2+""+" "+edad); 
     
     
 	

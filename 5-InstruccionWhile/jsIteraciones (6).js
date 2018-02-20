@@ -9,7 +9,7 @@ function Mostrar()
 	{
 		contador++;
 
-		numero=prompt("ingrse numero");
+		numero=prompt("ingrese numero");
 
 		numero=parseInt(numero);
 		acumulador+=numero;

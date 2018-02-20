@@ -23,8 +23,8 @@ function Mostrar()
 
 		if(isNaN(num)){
 
-			alert("ingrese solomente numeros")
-			continue
+			alert("ingrese solomente numeros");
+			
 		}
 	
 

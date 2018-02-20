@@ -8,7 +8,7 @@ function Mostar()
 	
 	dato=prompt("Ingrese su Nombre");
 
-	getElementsByid(dato).value;
+	document.getElementById("elNombre").value=dato;
 
 	
 }
