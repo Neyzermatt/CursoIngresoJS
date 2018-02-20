@@ -4,31 +4,31 @@ function Mostrar()
 var mesDelAño = document.getElementById('mes').value;
 
 
-switch(mesdelAño)
+switch(mesDelAño)
 {
-    case "julio":
-    case "agosto":
+    case "Julio":
+    case "Agosto":
 
     alert("abrigate que hace frio")
-    break
+    break;
 
-    case "septiembre":
-    case "octubre":
-    case "noviembre":
-    case "diciembre":
-    case "enero":
-    case "febrero":
+    case "Septiembre":
+    case "Octubre":
+    case "Noviembre":
+    case "Diciembre":
+    case "Enero":
+    case "Febrero":
     
     alert("ya pasamos el frio, ahora el calor!!!")
-    break
+    break;
 
-    case "marzo":
-    case "abril":
-    case "mayo":
-    case "junio":
+    case "Marzo":
+    case "Abril":
+    case "Mayo":
+    case "Junio":
 
     alert("falta para el invierno")
-    break
+    break;
     
           
 }
