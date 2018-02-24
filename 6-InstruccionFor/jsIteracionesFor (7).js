@@ -1,5 +1,7 @@
 function Mostrar()
 {
+var rep=prompt("ingrese numero");
+
 
 
 
