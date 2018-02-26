@@ -8,6 +8,92 @@ E.	Número de legajo, numérico de 4 cifras, sin ceros a la izquierda.
 F.	Nacionalidad, “A” para argentinos, “E” para extranjeros, “N” para nacionalizados.
  */
 function ComenzarIngreso () 
-{
+{   var edad;
+    var sexo;
+    var estadocivil;
+    var sueldo;
+    var legajo;
+    var Nacionalidad;
+
+    edad=prompt("ingrese su edad");
+     
+     while(edad <=18||edad>=90)
+     {
+         if(edad=null)
+
+         break;
+     else {
+         alert("usted no tiene la edad para ingresar")
+         break;
+     }
+
+     }
+     
+      edad=prompt("ingrese de nuevo su edad");
+     document.getElementById("Edad").value=edad;
+
+     sexo=prompt("ingrese su sexo con `m´ para masculino o `f´ para femenino");
+
+     while(sexo=="m"||sexo=="f")
+     {
+         if(sexo=null)
+         break;
+
+         else{
+
+            alert("error. ingrese de nuevo su sexo");
+            break;
+         }
+     } sexo=prompt("ingrese de nuevo su sexo");
+     document.getElementById("Sexo").value=sexo;
+
+     estadocivil=prompt("ingrese su estado civil 1-soltero, 2-casado-3-divorciados, 4-viudos");
+
+     
+       switch(estadocivil){
+
+           case 1 "soltero":
+           case 2 "casados":
+           case 3 "divorciados":
+           case 4 "viudos":
+           
+       }
+
+
+         }
+
+
+
+     
+    
+
+    
+    
+
+     
+    
+    
+             
+             
+        
+
+
+
+         
+
+
+
+
+     
+    
+
+
+    
+    
+
+
+
+
  
+
 }
