@@ -49,18 +49,38 @@ function ComenzarIngreso ()
 
      estadocivil=prompt("ingrese su estado civil 1-soltero, 2-casado-3-divorciados, 4-viudos");
 
+    while(estadocivil){
+
+        if(i=1){
+
+            break;
+        }
+        if(i=2){
+
+            break;
+        }
+        else if(i=3){
+
+            break;
+        }
+        else if(i=4){
+
+            break;
+        }
+        else{
+
+            alert("error")
+        }
+
+            
+        
      
-       switch(estadocivil){
-
-           case 1 "soltero":
-           case 2 "casados":
-           case 3 "divorciados":
-           case 4 "viudos":
-           
-       }
 
 
-         }
+    
+
+
+         
 
 
 
