@@ -6,39 +6,33 @@ function Mostrar()
 	var negativo=1;
 	var respuesta='si';
 	var num;
-
-	while(respuesta=='si'){
-		contador++;
-		continue
-
-		num=prompt("ingrese un numero");
-		num=parseInt(num);
-		break;
-	}
-    while(isNaN(num)){
-
-		num=prompt("ingrese un numero");
-		num=parseInt(num);
-		break;
-	}
 	
-	if(num >0){
+	num=prompt("ingrese numero");
+	num=parseInt(num);
+	
+	while(num){
 
-		positivo+=num;
+		
 
-	}else{
+		contador++;
+		num=prompt("ingrese su numero");
+		num=parseInt(num);
+		positivo=positivo+contador;
+		
 
-		if(num !=0){
+		negativo=negativo*contador;
+		num=confirm("desea seguir?");
+		
+		
 
-			negativo*=num;
-		}
-		else{
-			contador--;
-		}
-	}
+	if(num==false) 
+		break;
+		 }
+	 
+		 document.getElementById("suma").value=num;
+		 document.getElementById("producto").value=num;
 
 
-document.getElementById('suma').value=positivo;
-document.getElementById('producto').value=negativo;
+
 
 }//FIN DE LA FUNCIÓN

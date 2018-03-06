@@ -7,6 +7,7 @@ switch(mesdelaño){
   case "enero":
   case "febrero":
   alert("es veranitooo!!");
+  break;
 
   case "marzo":
   case "abril":

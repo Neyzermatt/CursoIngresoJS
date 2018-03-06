@@ -15,7 +15,9 @@ function Mostrar()
 		numero=confirm("Desea Seguir?");
 
 		if(numero==false)
-		break;
+			break;
+		
+		
 
 
 	}
